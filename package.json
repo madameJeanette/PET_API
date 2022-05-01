@@ -1,0 +1,33 @@
+{
+  "name": "pet_api",
+  "version": "1.0.0",
+  "description": "API with MONGODB and NODE.js that finds shelter pets",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madameJeanette/PET_API.git"
+  },
+  "keywords": [
+    "pet",
+    "api",
+    "node",
+    "mongodb",
+    "Js"
+  ],
+  "author": "Danielle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madameJeanette/PET_API/issues"
+  },
+  "homepage": "https://github.com/madameJeanette/PET_API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.16"
+  }
+}
